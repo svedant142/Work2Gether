@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Work2Gether</title>
+    <link rel="stylesheet" href="Page1-login-signup.css">
+    <link rel="shortcut icon" href="Work2Gether-logo-new.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+   
+    <div class="root" >
+    <div >
+    <nav class="Logo" >
+        <img class="work2gether-logo" src="Work2Gether-logo-new.png">
+    </nav>
+</div>
+<div class="main-container">
+    <div class="container">
+            <h1 class="form__title">Login</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input"  autofocus placeholder="Username or email">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input"  autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <a  href="host-or-join.html" ><button class="form__button" type="submit" onclick="login()">Continue</button></a> 
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p class="form__text">
+                <a class="form__link" href="Page1-login-signup.html" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+    </div>
+</div>
+    </div>
+   
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+<script src="Page1-login-signup.js"></script>
+</body>
+
+
